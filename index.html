@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FinanzfitKids – Finanzwissen für junge Helden</title>
+    <style>
+        body { margin:0; font-family:Arial,sans-serif; background:#f5f7fa; color:#333; }
+        header { background: linear-gradient(90deg,#4e83c9,#6bb96e); color:#fff; padding:40px 20px; text-align:center; }
+        header h1 { margin:0; font-size:2.5rem; }
+        header p { max-width:600px; margin:10px auto; font-size:1rem; }
+        .container { width:90%; max-width:960px; margin:0 auto; padding:20px 0; }
+        .topics { display:flex; flex-wrap:wrap; gap:20px; }
+        .topic { background:#fff; border-radius:8px; box-shadow:0 2px 4px rgba(0,0,0,0.1); padding:20px; flex:1 1 300px; }
+        .topic h3 { margin-top:0; color:#4e83c9; }
+        .contact { background:#fff; border-radius:8px; box-shadow:0 2px 4px rgba(0,0,0,0.1); padding:20px; margin-top:40px; }
+        .contact form { display:flex; flex-direction:column; gap:10px; }
+        .contact label { font-weight:bold; }
+        .contact input,.contact textarea { padding:10px; border:1px solid #ccc; border-radius:4px; font-size:1rem; }
+        .contact button { background:#4e83c9; color:#fff; padding:12px; border:none; border-radius:4px; cursor:pointer; font-size:1rem; }
+        .contact button:hover { background:#3b6a9e; }
+        footer { margin-top:40px; padding:20px; text-align:center; color:#777; font-size:0.9rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FinanzfitKids</h1>
+        <p>Richtig entscheiden, klar investieren, intelligent konsumieren – Finanzwissen für Kinder und Jugendliche.</p>
+    </header>
+    <div class="container">
+        <section class="topics">
+            <div class="topic"><h3>Was ist Taschengeld?</h3><p>Verstehe, wie du dein Taschengeld planst: Sparen, ausgeben und Ziele setzen.</p></div>
+            <div class="topic"><h3>Sparen &amp; Ausgeben</h3><p>Lerne, wie du einen Teil deines Geldes zur Seite legst und den Rest sinnvoll nutzt.</p></div>
+            <div class="topic"><h3>Investieren</h3><p>Warum es klug ist, Geld zu investieren und wie du Schritt für Schritt damit startest.</p></div>
+            <div class="topic"><h3>Konsum</h3><p>Erfahre den Unterschied zwischen Bedürfnissen und Wünschen und wie du bewusster einkaufst.</p></div>
+            <div class="topic"><h3>Kredite verstehen</h3><p>Was ist ein Kredit? Wann lohnt er sich? Und warum sollte man sich Geld nur mit Vorsicht leihen?</p></div>
+            <div class="topic"><h3>Einkommen &amp; Budget</h3><p>Entdecke verschiedene Einnahmequellen und wie du ein einfaches Budget erstellst.</p></div>
+            <div class="topic"><h3>Sparen &amp; Zinsen</h3><p>Wie funktioniert Zinseszins und warum ist ein Sparplan wichtig?</p></div>
+            <div class="topic"><h3>Bankwesen</h3><p>Lerne, was Konten sind und wie du Online‑Banking sicher nutzt.</p></div>
+        </section>
+        <section class="contact">
+            <h2>Kontakt</h2>
+            <p>Schreib uns, wenn du Fragen hast oder mehr Informationen möchtest.</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+                <label for="email">E‑Mail:</label>
+                <input type="email" id="email" name="email" required />
+                <label for="message">Nachricht:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Nachricht senden</button>
+            </form>
+        </section>
+    </div>
+    <footer><p>&copy; 2025 FinanzfitKids. Alle Rechte vorbehalten.</p></footer>
+</body>
+</html>
